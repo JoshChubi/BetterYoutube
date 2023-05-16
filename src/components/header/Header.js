@@ -11,8 +11,10 @@ function Header(props) {
                 <img src={Logo} alt="Logo" className="logo" />
             </div>
             <div className="search-container">
-                <input type="text" placeholder="Search" className="search-bar">
-                </input>
+                <input type="text" placeholder="Search" className="search-bar" />
+                <button className="search-bar-icon-container">
+                    <img className="search-bar-icon" src={SearchIcon} alt="Search Icon" />
+                </button>
             </div>
         </div>
     );

@@ -49,3 +49,24 @@
 .search-bar::placeholder {
     color: #c9c9c9;
 }
+
+.search-bar-icon-container {
+    position: absolute;
+    height: 100%;
+    width: 8%;
+    top: 5%;
+    right: 0%;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.search-bar-icon {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+}
