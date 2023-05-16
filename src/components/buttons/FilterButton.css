@@ -17,6 +17,8 @@
 .filterButton-Icon {
     height: 100%;
     width: 30%;
+    border: none;
+    outline: none;
     background-color: blue;
 }
 

@@ -13,13 +13,15 @@
     position: absolute;
     height: 65%;
     width: 7%;
+    border: none;
+    outline: none;
     margin-left: 1.5%;
     background-color: green;
 }
 
 .logo {
     align-content: center;
-    width: auto;
+    width: 100%;
     height: 100%;
     object-fit: contain;
 }
