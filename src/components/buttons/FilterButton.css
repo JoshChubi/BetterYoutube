@@ -1,0 +1,31 @@
+.filterButton {
+    width: 90%;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    display: flex;
+}
+
+.filterButton:hover {
+    background-color: #a52822;
+}
+
+.filterButton-Icon {
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+}
+
+.filterButton-Title {
+    height: 100%;
+    width: 70%;
+    left: 15%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

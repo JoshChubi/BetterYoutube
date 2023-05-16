@@ -1,0 +1,51 @@
+.header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.logo-container {
+    position: absolute;
+    height: 65%;
+    width: 7%;
+    margin-left: 1.5%;
+    background-color: green;
+}
+
+.logo {
+    position: absolute;
+    align-content: center;
+}
+
+.search-container {
+    position: absolute;
+    height: 50%;
+    width: 28%;
+    left: 41%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.search-bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #333333;
+    outline: none;
+    text-indent: 10px;
+}
+
+.search-bar::placeholder {
+    color: #c9c9c9;
+}

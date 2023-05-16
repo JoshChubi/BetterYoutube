@@ -1,0 +1,6 @@
+.home-thumbnail {
+    width: 20%;
+    height: 180px;
+    object-fit: cover;
+    cursor: pointer;
+}
