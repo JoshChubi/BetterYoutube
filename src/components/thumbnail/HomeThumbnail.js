@@ -5,7 +5,7 @@ function HomeThumbnail(props) {
     const { src, alt, onClick } = props;
 
     return (
-        <div className="homeThumbnail-Container">
+        <button className="homeThumbnail-Container">
             <img
                 className="homeThumbnail"
                 src={src}
@@ -15,7 +15,7 @@ function HomeThumbnail(props) {
             <div className="homeThumbnail-Overlay">
                 <div className="homeThumbnail-Text">{alt}</div>
             </div>
-        </div>
+        </button>
     );
 }
 

@@ -1,10 +1,7 @@
 .homeContent {
     position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
-    background-color: purple;
     overflow-y: hidden;
 }
 
@@ -21,6 +18,8 @@
 }
 
 .grid-item {
-    background-color: lightblue;
-    padding: 1rem;
+    border: none;
+    padding: 0.1rem;
+    overflow: hidden;
+    object-fit: contain;
 }

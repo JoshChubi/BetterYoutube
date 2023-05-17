@@ -69,5 +69,5 @@
     left: 10%;
     top: 7%;
     z-index: 1;
-    background-color: red;
+    background-color: var(--color2);
 }

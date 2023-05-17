@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomeContent.css';
+import ThumbnailTest from '../../images/ThumbnailTest.jpg';
 import HomeThumbnail from '../thumbnail/HomeThumbnail.js';
 
 function HomeContent(props) {
@@ -8,7 +9,7 @@ function HomeContent(props) {
             <div className="homeContent-Scroll">
                 <div className="homeContent-Grid">
                     <div className="grid-item">
-                        <HomeThumbnail src="../images/logo512.png" alt="Video 1" onClick={null} />
+                        <HomeThumbnail src={ThumbnailTest} alt="Video 1" onClick={null} />
                     </div>
                 </div>
             </div>
