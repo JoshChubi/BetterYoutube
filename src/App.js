@@ -1,4 +1,5 @@
 import './App.css';
+import './Colors.css';
 
 import Header from './components/header/Header.js';
 import FilterScrollbar from './components/scrollbar/FilterScrollbar.js';
