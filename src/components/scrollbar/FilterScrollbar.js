@@ -1,5 +1,6 @@
 import React from 'react';
 import FilterButton from '../buttons/FilterButton.js';
+import HomeFilterIcon from '../../images/HomeFilterIcon.png'
 import ComedyFilterIcon from '../../images/ComedyFilterIcon.png';
 import EducationFilterIcon from '../../images/EducationFilterIcon.png';
 import HorrorFilterIcon from '../../images/HorrorFilterIcon.png';
@@ -25,6 +26,11 @@ function FilterScrollbar(props) {
     return (
         <div className="filterScrollbar">
             <div className="filterScrollbar-Scroll">
+                <FilterGrid title="">
+                    <FilterButton icon={HomeFilterIcon} title="Home" />
+                </FilterGrid>
+                <Divider />
+
                 <FilterGrid title="Category">
                     <FilterButton icon={ComedyFilterIcon} title="Comedy" />
                     <FilterButton icon={EducationFilterIcon} title="Education" />
