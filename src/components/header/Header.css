@@ -10,11 +10,13 @@
 
 .logo-container {
     position: absolute;
-    height: 65%;
-    width: 7%;
+    height: 75%;
+    width: 5%;
     border: none;
     outline: none;
-    margin-left: 1.5%;
+    margin-left: 2.75%;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .logo {
