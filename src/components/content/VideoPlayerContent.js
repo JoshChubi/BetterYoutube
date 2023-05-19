@@ -7,9 +7,12 @@ function VidePlayerContent(props) {
     return (
         <div className="videoPlayerContent">
             <div className="videoPlayerContent-Scroll">
-                <div className="video-container">
-                    <video src={video_obj} controls></video>
+                <div className="videoPlayerContent-Grid">
+                    <div className="video-container">
+                        <video src={video_obj} controls></video>
+                    </div>
                 </div>
+                
             </div>
         </div>
         );

@@ -13,11 +13,20 @@
     background-color: blue;
 }
 
-.video-container {
-    height: 80%;
-    aspect-ratio: 16 / 9;
+.videoPlayerContent-Grid {
+    width: 68%;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    background-color: lightblue;
+    display: block;
+}
+
+.video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
     display: block;
     /*Center both objects so no matter what you do its perfectly centered:*/
     /*If video container gets bigger, makes sure video gets centered*/
