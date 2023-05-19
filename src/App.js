@@ -4,8 +4,7 @@ import './Colors.css';
 import Header from './components/header/Header.js';
 import FilterScrollbar from './components/scrollbar/FilterScrollbar.js';
 import HomeContent from './components/content/HomeContent.js';
-
-import video_obj from './videos/absolute_in_doubt.mp4' /*TO-DO: make dynamic - pull from s3 bucket*/
+import VideoPlayerContent from './components/content/VideoPlayerContent';
 
 function App() {
     return (
@@ -14,16 +13,14 @@ function App() {
                 <Header />
             </div>
 
-            <div className="Filter-Container">
-                <FilterScrollbar />
+            <div className="Content-Container">
+                <VideoPlayerContent />
             </div>
 
-            <div className="Content-Container">
-                <HomeContent />
-                <div className="video-container">
-                    <video src={video_obj} controls></video>
-                </div>
-            </div>
+            {/*<div className="Filter-Container">
+                <FilterScrollbar />
+            </div>*/}
+
        </div>
   );
 }
