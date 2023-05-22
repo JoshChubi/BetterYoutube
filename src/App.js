@@ -14,7 +14,7 @@ function App() {
             </div>
 
             <div className="Content-Container">
-                <VideoPlayerContent />
+                <VideoPlayerContent title=" Doing It Wrong - Capoxxo" author="Capoxxo" likes="200" views="1.3mil" date="1/1/2020" desc="This is a video of two friends making great music together!" />
             </div>
 
             {/*<div className="Filter-Container">
