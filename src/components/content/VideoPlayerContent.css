@@ -29,7 +29,7 @@
     /*If video container gets bigger, makes sure video gets centered*/
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: transparent;
 }
 
 .video {
@@ -82,13 +82,15 @@
 }
 
 .videoData {
-    padding-top: 0.5rem;
+    padding-top: 0.75rem;
     text-align: left;
     color: var(--color4);
     background-color: transparent;
 }
 
 .videoData-Information {
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 0.5rem;
     font-weight: 900;
 }
@@ -96,9 +98,10 @@
 .videoData-Description {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .videoData-Description-Header {
