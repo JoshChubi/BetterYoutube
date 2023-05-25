@@ -24,7 +24,7 @@ function HomeContent(props) {
         var dateValues = utcString.split(' ');
         utcString = dateValues[1] + " " + dateValues[2] + " " + dateValues[3];
 
-        props.setContentData({ type: "VideoPlayer", title: videoData.VideoName, author: videoData.AuthorName, likes: videoData.Likes, views: videoData.Views, date: utcString, desc: videoData.Description });
+        props.setContentData({ type: "VideoPlayer", etag: etag, title: videoData.VideoName, author: videoData.AuthorName, likes: videoData.Likes, views: videoData.Views, date: utcString, desc: videoData.Description });
     }
 
     return (

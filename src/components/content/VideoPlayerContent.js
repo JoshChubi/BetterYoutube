@@ -1,8 +1,6 @@
 import React from 'react';
 import './VideoPlayerContent.css';
 
-import video_obj from './video_obj.mp4';
-
 function VideoData(props) {
 
     return (
@@ -26,7 +24,7 @@ function VideoPlayerContent(props) {
             <div className="videoPlayerContent-Scroll">
                 <div className="videoPlayerContent-Grid">
                     <div className="video-container">
-                        <video src={video_obj} controls></video>
+                        <video src={"https://dqdow3mh2lvus.cloudfront.net/mp4/" + props.etag} controls></video>
                     </div>
                     <VideoData title={props.title} author={props.author} likes={props.likes} views={props.views} data={props.date} desc={props.desc} />
                 </div>
