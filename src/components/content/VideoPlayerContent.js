@@ -18,7 +18,52 @@ function VideoData(props) {
         );
 };
 
+async function getVideoData() {
+
+    const url = "https://ahqbw4sfkd.execute-api.us-west-1.amazonaws.com/HTTPGetVideoMetaData?Etag=29b1e39a561b75a75874fb2491f53dad";
+
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log("data inside getVideoData() - stringify(): " + JSON.stringify(data) + "\n");
+    console.log("data.Item.VideoName inside getVideoData(): " + data.Item.VideoName + "\n");
+
+    return data;
+/*    const option = {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    };
+
+    try {
+        return await fetch(url, option).then((response) => response.json())
+            .then(data => {
+                console.log(data);
+            })
+    } catch (err) {
+        ;
+    }*/
+
+}
+
 function VideoPlayerContent(props) {
+
+    const data = getVideoData()
+        .then(response => {
+            response.json();
+        })
+        .then(data => {
+            console.log("data inside VideoPlayerContent() .then: " + data.Item.VideoName);
+        })
+
+/*    const videoData = getVideoData().then((response) => {
+
+        console.log("response: " + JSON.stringify(response));
+
+    });*/
+
+    console.log("data inside VideoPlayerContetn(): " + data + "\n");
+
     return (
         <div className="videoPlayerContent">
             <div className="videoPlayerContent-Scroll">
