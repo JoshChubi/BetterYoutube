@@ -8,7 +8,7 @@ import HomeContent from './components/content/HomeContent.js';
 import VideoPlayerContent from './components/content/VideoPlayerContent';
 
 function App() {
-    const [contentData, setContentData] = useState({ type: "Home", title: null, author: null, likes: null, views: null, date: null, desc: null});
+    const [contentData, setContentData] = useState({ type: "Home", title: null, author: null, likes: null, views: null, date: null, desc: null });
 
     function ChooseContent() {
         if (contentData.type === "Home")
@@ -19,7 +19,7 @@ function App() {
     return (
        <div className="App">
             <div className="Header-Container">
-                <Header />
+                <Header setContentData={setContentData}/>
             </div>
 
             <div className="Content-Container">
