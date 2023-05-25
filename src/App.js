@@ -8,15 +8,14 @@ import HomeContent from './components/content/HomeContent.js';
 import VideoPlayerContent from './components/content/VideoPlayerContent';
 
 function App() {
-    const [contentData, setContent] = useState({Type:"Home"});
+    const [contentData, setContentData] = useState({ type: "Home", title: null, author: null, likes: null, views: null, date: null, desc: null});
 
     function ChooseContent() {
-        if (contentData.Type === "Home")
-            return <HomeContent />;
-        else if (contentData.Type === "VideoPlayer")
-            return <VideoPlayerContent title=" Doing It Wrong - Capoxxo" author="Capoxxo" likes="200" views="1.3mil" date="1/1/2020" desc="This is a video of two friends making great music together!" />;
+        if (contentData.type === "Home")
+            return <HomeContent setContentData={setContentData} />;
+        else if (contentData.type === "VideoPlayer")
+            return <VideoPlayerContent title={contentData.title} author={contentData.author} likes={contentData.likes} views={contentData.views} date={contentData.date} desc={contentData.desc} />;
     }
-
     return (
        <div className="App">
             <div className="Header-Container">
@@ -30,7 +29,6 @@ function App() {
             {/*<div className="Filter-Container">
                 <FilterScrollbar />
             </div>*/}
-
        </div>
   );
 }

@@ -2,18 +2,15 @@ import React from 'react';
 import './HomeThumbnail.css';
 
 function HomeThumbnail(props) {
-    const { src, alt, onClick } = props;
-
     return (
-        <button className="homeThumbnail-Container">
+        <button className="homeThumbnail-Container" onClick={props.onClick}>
             <img
                 className="homeThumbnail"
-                src={src}
-                alt={alt}
-                onClick={onClick}
+                src={props.src}
+                alt={props.alt}
             />
             <div className="homeThumbnail-Overlay">
-                <div className="homeThumbnail-Text">{alt}</div>
+                <div className="homeThumbnail-Text">{props.alt}</div>
             </div>
         </button>
     );
