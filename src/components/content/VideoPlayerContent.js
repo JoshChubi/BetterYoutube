@@ -28,22 +28,6 @@ async function getVideoData() {
     console.log("data.Item.VideoName inside getVideoData(): " + data.Item.VideoName + "\n");
 
     return data;
-/*    const option = {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-        }
-    };
-
-    try {
-        return await fetch(url, option).then((response) => response.json())
-            .then(data => {
-                console.log(data);
-            })
-    } catch (err) {
-        ;
-    }*/
-
 }
 
 function VideoPlayerContent(props) {
@@ -56,13 +40,7 @@ function VideoPlayerContent(props) {
             console.log("data inside VideoPlayerContent() .then: " + data.Item.VideoName);
         })
 
-/*    const videoData = getVideoData().then((response) => {
-
-        console.log("response: " + JSON.stringify(response));
-
-    });*/
-
-    console.log("data inside VideoPlayerContetn(): " + data + "\n");
+    console.log("data inside VideoPlayerContetn(): " + data + "\n")
 
     return (
         <div className="videoPlayerContent">
