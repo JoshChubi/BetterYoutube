@@ -5,7 +5,7 @@ An independent project showcasing React and AWS knowledge.
 
 ## Learned
 * React States - Rerendering 
-* React Varaible Refs
+* React Variable Refs
 * React Web Design
 * AWS Dynamodb - Storing Video Metadata, No SQL
 * AWS S3 - Storage of mp4 and png thumbnails
