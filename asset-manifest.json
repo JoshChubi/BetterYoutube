@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BetterYoutube/static/css/main.c61db2cf.css",
+    "main.js": "/BetterYoutube/static/js/main.7a5fcfa1.js",
+    "static/js/787.0bd60368.chunk.js": "/BetterYoutube/static/js/787.0bd60368.chunk.js",
+    "static/media/BetterYoutubeLogo.png": "/BetterYoutube/static/media/BetterYoutubeLogo.bdcb52b0699dfb1d4e3b.png",
+    "static/media/ThumbnailTest.jpg": "/BetterYoutube/static/media/ThumbnailTest.1ea491e0c1297819a77d.jpg",
+    "static/media/ComedyFilterIcon.png": "/BetterYoutube/static/media/ComedyFilterIcon.d152b60fbabec27d519c.png",
+    "static/media/HorrorFilterIcon.png": "/BetterYoutube/static/media/HorrorFilterIcon.f4875ffd63553798afb6.png",
+    "static/media/MusicFilterIcon.png": "/BetterYoutube/static/media/MusicFilterIcon.833a55cf4bdab98eae96.png",
+    "static/media/SportFilterIcon.png": "/BetterYoutube/static/media/SportFilterIcon.9dccc08286fd37a03ffa.png",
+    "static/media/EducationFilterIcon.png": "/BetterYoutube/static/media/EducationFilterIcon.8b2de6c5d2d117f3a232.png",
+    "index.html": "/BetterYoutube/index.html",
+    "main.c61db2cf.css.map": "/BetterYoutube/static/css/main.c61db2cf.css.map",
+    "main.7a5fcfa1.js.map": "/BetterYoutube/static/js/main.7a5fcfa1.js.map",
+    "787.0bd60368.chunk.js.map": "/BetterYoutube/static/js/787.0bd60368.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61db2cf.css",
+    "static/js/main.7a5fcfa1.js"
+  ]
+}
